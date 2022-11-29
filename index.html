@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen de matematica</title>
+    <link rel="stylesheet" href="stlye.css">
+</head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Bienvenidos al examen!</h1>
+                <p>Resuelvan la evaluacion. Se aprueba con 3!</p>
+            </header>
+            <div id="score"></div>
+            <section>
+                <form name="quizForm" onsubmit="verifyAnswers()">
+
+                    <h3>1) XXXXXXXXXX</h3>
+                    <input type="radio" name="p1" value="a">a. XXX <br>
+                    <input type="radio" name="p1" value="b">b. XXX <br>
+                    <input type="radio" name="p1" value="c">c. XXX <br>
+                    <input type="radio" name="p1" value="d">d. XXX <br>
+
+                    <h3>2) XXXXXXXXXX</h3>
+                    <input type="radio" name="p2" value="a">a. XXX <br>
+                    <input type="radio" name="p2" value="b">b. XXX <br>
+                    <input type="radio" name="p2" value="c">c. XXX <br>
+                    <input type="radio" name="p2" value="d">d. XXX <br>
+
+                    <h3>3) XXXXXXXXXX</h3>                
+                    <input type="radio" name="p3" value="a">a. XXX <br>
+                    <input type="radio" name="p3" value="b">b. XXX <br>
+                    <input type="radio" name="p3" value="c">c. XXX <br>
+                    <input type="radio" name="p3" value="d">d. XXX <br>
+
+                    <h3>4) XXXXXXXXXX</h3>
+                    <input type="radio" name="p4" value="a">a. XXX <br>
+                    <input type="radio" name="p4" value="b">b. XXX <br>
+                    <input type="radio" name="p4" value="c">c. XXX <br>
+                    <input type="radio" name="p4" value="d">d. XXX <br>
+
+                    <h3>5) XXXXXXXXXX</h3>
+                    <input type="radio" name="p5" value="a">a. XXX <br>
+                    <input type="radio" name="p5" value="b">b. XXX <br>
+                    <input type="radio" name="p5" value="c">c. XXX <br>
+                    <input type="radio" name="p5" value="d">d. XXX <br>
+
+                    <input type="button" onclick="return verifyAnswers()" value="Enviar">
+                </form>
+            </section>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
