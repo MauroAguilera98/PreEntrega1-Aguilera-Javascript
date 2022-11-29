@@ -1,4 +1,4 @@
 # PreEntrega1-Aguilera-Javascript
-##usuario: mauro
-##contraseña: 1234
-página:
+## Usuario: mauro
+## Contraseña: 1234
+## Página:
